@@ -167,8 +167,16 @@ section {
     height: 80vh;
 }
 
+.section__pic-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.profile-pic {
+    border-radius: 2rem;
+}
 .section__pic-container {
-    display: flex;
     height: 400px;
     width: 400px;
     margin: auto 0;
@@ -281,6 +289,7 @@ section {
 
 .about-pic {
     border-radius: 2rem;
+  
 }
 
 .arrow {
@@ -305,10 +314,12 @@ section {
 }
 
 .section__pic-container {
+    display: flex;
     height: 400px;
     width: 400px;
     margin: auto 0;
 }
+
 
 /* EXPERIENCE SECTION */
 
@@ -339,7 +350,7 @@ section {
 article {
     display: flex;
     width: 10rem;
-    justify-content: space-around;
+    justify-content: left;
     gap: 0.5rem;
 }
 
